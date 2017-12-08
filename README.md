@@ -3,6 +3,7 @@
 
 
 
-
-No|        主題           |  筆記   |DEMO
-01|JavaScript Drum Kit
+  No |                                 | note     | DEMO |
+ --- | :-----------------------------: | ----     | ---- |
+  01 |         Drum-Kit                | [note](https://milletbard.github.io/2017/12/08/js1/) | [DEMO](https://milletbard.github.io/javascript30/01_JavaScript-Drum-Kit/milletbard.html)     |
+  02 | [Mike](http://mike.me)          |      |      |
