@@ -61,10 +61,10 @@
 
 
     function playSound(e) { 
-    let keyCode = e.keyCode || this.getAttribute('data-key');
+    let key1 = e.keyCode || this.getAttribute('data-key');
 
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    const audio = document.querySelector(`audio[data-key="${key1}"]`);
+    const key = document.querySelector(`.key[data-key="${key1}"]`);
 
     if(!audio) return; // stop the function
     key.classList.add('playing');
