@@ -67,7 +67,7 @@
       top:50%;
       transform-origin: 100%;
       /*transform-origin屬性允許更改已轉換元素的位置。*/
-      transform:rotate(90deg);
+  /*    transform:rotate(90deg);*/
 
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
@@ -79,7 +79,7 @@
   </style>
 
   <script>
-  // //回來第一個符合特定選擇器的元素
+  // //回傳第一個符合特定選擇器的元素
   const hourHand = document.querySelector('.hour-hand'); 
   const minsHand = document.querySelector('.min-hand');
   const secondHand = document.querySelector('.second-hand');
@@ -103,7 +103,8 @@
 
   }
   setInterval(setDate, 1000);
-  setDate();
+  
+  // setDate();
 
   </script>
 </body>
